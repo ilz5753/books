@@ -1,8 +1,3 @@
----
-description: converting aab to apk
-coverY: 0
----
-
 # Generating android apk in react native ( expo )
 
 for start we create new sample app
@@ -23,7 +18,6 @@ after you writing app, for export apk you needs run your project with `hermes en
 
 first in ‍`app.json` change engine
 
-{% code title="app.json" overflow="wrap" lineNumbers="true" %}
 ```json
 {
   "expo": {
@@ -41,7 +35,7 @@ now in terminal on project directory run:
 npx eas-cli build
 ```
 
-or if you have \``` eas-cli` ``
+or if you have `eas-cli`
 
 ```bash
 eas-cli build
@@ -53,7 +47,7 @@ after finish building `aab` on dashboard, download it
 
 now in `Key Store Explorer` app on our OS generate new keystore for downloading file
 
-Download bundletool [`https://github.com/google/bundletool`](the-formal-stuff/filing-expenses.md)``
+Download [bundletool](https://github.com/google/bundletool)
 
 move your `aab` file to bundletool folder and run:
 
