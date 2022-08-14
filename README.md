@@ -3,10 +3,10 @@
 for start we create new sample app
 
 ```bash
-npx expo init _projectName_
+npx expo-cli init _projectName_
 ```
 
-or if you have `expo-cli` on your system
+or if you have [expo-cli](https://github.com/expo/expo-cli) on your system
 
 ```bash
 expo init _projectName_
@@ -14,7 +14,7 @@ expo init _projectName_
 
 now  open project in your editor
 
-after you writing app, for export apk you needs run your project with `hermes engine`
+after you finish editing app, for export apk you needs build your project with `hermes engine`
 
 first in ‍`app.json` change engine
 
@@ -34,10 +34,10 @@ now in terminal on project directory run:
 npx eas-cli build
 ```
 
-or if you have `eas-cli`
+or if you have [eas-cli](https://github.com/expo/eas-cli)
 
 ```bash
-eas-cli build
+eas build
 ```
 
 Expo will provide a link on dashboard for us that generated  `aab` file
