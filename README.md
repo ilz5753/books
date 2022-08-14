@@ -27,7 +27,6 @@ first in ‍`app.json` change engine
   }
 }
 ```
-{% endcode %}
 
 now in terminal on project directory run:
 
@@ -45,7 +44,7 @@ Expo will provide a link on dashboard for us that generated  `aab` file
 
 after finish building `aab` on dashboard, download it
 
-now in `Key Store Explorer` app on our OS generate new keystore for downloading file
+now in [Key Store Explorer](https://keystore-explorer.org/downloads.html) app on our OS generate new keystore for `aab` file
 
 Download [bundletool](https://github.com/google/bundletool)
 
